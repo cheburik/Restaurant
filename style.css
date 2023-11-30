@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #EE964B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 60px;
+}
+.logo img{
+    width: 50px;
+}
+.links a{
+    color: #000;
+
+font-family: Joti One;
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+}
+.links a:hover{
+    color: aliceblue;
+}
+.links{
+    width: 517px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    font-size: 25px;
+}
+.fa-user{
+    margin-right: 40px;
+}
+h1{
+    color: #200B1B;
+
+font-family: Lacquer;
+font-size: 96px;
+font-weight: 400;
+padding-top: 175px;
+padding-bottom: 75px;
+}
+main a{
+    color: #FFF;
+
+font-family: Lacquer;
+font-size: 36px;
+font-weight: 400;
+background-color: transparent;
+border-radius: 1000px;
+border: 8px solid #240404;
+padding: 10px 100px;
+text-decoration: none;
+}
+main a:hover{
+    background-color: #000;
+    transition: 2s;
+}
+main{
+    background: linear-gradient(rgba(241, 204, 204, 0.43),rgba(241, 204, 204, 0.43)),url('./images/image\ 1.png');
+    height: 760px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EE964B;
+    padding: 20px 30px;
+}
+footer p{
+    color: #000;
+
+font-family: Lacquer;
+font-size: 22px;
+font-weight: 400;
+}
+footer img{
+    width: 50px;
+    margin: 10px;
+}
